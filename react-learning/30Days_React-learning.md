@@ -109,7 +109,7 @@ npm run dev
 |-----|---------|-----------------|--------------|
 | 08 | Forms | Contact Form | Controlled vs uncontrolled |
 | 09 | React Auth Flow (Login + Signup + Validation)| Form Validation | Single source of truth |
-| 10 | useEffect | Data Fetch Demo | Side effects & cleanup |
+| 10 | useEffect | Password Generator | Side effects & cleanup |
 | 11 | API Fetching | Weather App | fetch + async/await in React |
 | 12 | Component Design | Dashboard Layout | Think in components |
 | 13 | Reusable Components | UI Card Library | Props make components flexible |
