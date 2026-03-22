@@ -110,7 +110,7 @@ npm run dev
 | 08 | Forms | Contact Form | Controlled vs uncontrolled |
 | 09 | React Auth Flow (Login + Signup + Validation)| Form Validation | Single source of truth |
 | 10 | useEffect | Password Generator | Side effects & cleanup |
-| 11 | API Fetching | Weather App | fetch + async/await in React |
+| 11 | API Fetching | Currency Converter | fetch in React |
 | 12 | Component Design | Dashboard Layout | Think in components |
 | 13 | Reusable Components | UI Card Library | Props make components flexible |
 | 14 | **Mini Project** | ✅ Product List | Combine Week 2 concepts |
@@ -174,8 +174,8 @@ Month1-React/
 ├── 07-mini-project-todo/
 ├── 08-forms/
 ├── 09-controlled-components/
-├── 10-useEffect/
-├── 11-api-fetch-weather/
+├── 10-password-generator/
+├── 11-currency-convertor/
 ├── 12-component-design/
 ├── 13-reusable-components/
 ├── 14-mini-project-products/
