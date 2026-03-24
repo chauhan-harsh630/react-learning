@@ -1,0 +1,123 @@
+.header {
+  height: var(--header-height);
+  background-color: var(--surface-color);
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  position: sticky;
+  top: 0;
+  z-index: 90;
+}
+
+.header-search {
+  display: flex;
+  align-items: center;
+  background-color: var(--bg-color);
+  padding: 8px 16px;
+  border-radius: 20px;
+  width: 350px;
+  border: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.header-search:focus-within {
+  border-color: var(--shopee-primary);
+  background-color: var(--surface-color);
+}
+
+.header-search .search-icon {
+  color: var(--text-secondary);
+  margin-right: 8px;
+}
+
+.header-search input {
+  border: none;
+  background: transparent;
+  width: 100%;
+  font-size: 0.875rem;
+  color: var(--text-primary);
+  outline: none;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon-btn {
+  background: transparent;
+  color: var(--text-secondary);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 50%;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.icon-btn:hover {
+  background-color: var(--bg-color);
+  color: var(--shopee-primary);
+}
+
+.badge {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background-color: var(--shopee-primary);
+  color: white;
+  font-size: 0.6rem;
+  font-weight: bold;
+  height: 14px;
+  min-width: 14px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 4px;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: var(--border-radius-lg);
+  transition: background-color 0.2s;
+}
+
+.user-profile:hover {
+  background-color: var(--bg-color);
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  background-color: #ffe0d8;
+  color: var(--shopee-primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name {
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: var(--text-primary);
+}
+
+.user-role {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}

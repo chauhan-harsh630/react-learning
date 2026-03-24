@@ -1,0 +1,65 @@
+.sidebar {
+  width: var(--sidebar-width);
+  height: 100vh;
+  background-color: var(--surface-color);
+  border-right: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+
+.sidebar-logo {
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--shopee-primary);
+}
+
+.sidebar-nav {
+  padding: 24px 0;
+  flex: 1;
+}
+
+.sidebar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0 12px;
+}
+
+.sidebar li a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  border-radius: var(--border-radius-lg);
+  color: var(--text-secondary);
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.sidebar li a:hover {
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+}
+
+.sidebar li.active a {
+  background-color: rgba(238, 77, 45, 0.1);
+  color: var(--shopee-primary);
+}
+
+.sidebar-footer {
+  padding: 24px 0;
+  border-top: 1px solid var(--border-color);
+}
+
+.sidebar li a.logout:hover {
+  color: #d32f2f;
+  background-color: rgba(211, 47, 47, 0.1);
+}

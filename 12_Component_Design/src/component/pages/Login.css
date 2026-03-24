@@ -1,0 +1,116 @@
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-color);
+  padding: 20px;
+}
+
+.auth-card {
+  background-color: var(--surface-color);
+  width: 100%;
+  max-width: 440px;
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-md);
+  padding: 40px;
+}
+
+.auth-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.auth-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.auth-header h2 {
+  font-size: 1.5rem;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+.auth-header p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.form-group input {
+  padding: 12px 16px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.form-group input:focus {
+  border-color: var(--shopee-primary);
+}
+
+.auth-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.875rem;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+
+.forgot-password {
+  color: var(--shopee-primary);
+  font-weight: 500;
+}
+
+.auth-btn {
+  background-color: var(--shopee-primary);
+  color: white;
+  padding: 12px;
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.auth-btn:hover {
+  background-color: var(--shopee-primary-hover);
+}
+
+.auth-footer {
+  margin-top: 24px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.auth-footer a {
+  color: var(--shopee-primary);
+  font-weight: 600;
+}

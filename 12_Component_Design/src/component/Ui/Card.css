@@ -1,0 +1,71 @@
+.card {
+  background-color: var(--surface-color);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-sm);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  border: 1px solid var(--border-color);
+}
+
+.card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+}
+
+.card .card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.card .card-title {
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--text-primary);
+}
+
+.card .card-desc {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.card .card-price {
+  font-weight: 700;
+  color: var(--shopee-primary);
+  font-size: 1.125rem;
+  margin-top: auto;
+}
+
+.card button {
+  background-color: var(--shopee-primary);
+  color: white;
+  padding: 8px 16px;
+  border-radius: var(--border-radius);
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+  margin-top: 8px;
+}
+
+.card button:hover {
+  background-color: var(--shopee-primary-hover);
+}
+
+.card button.remove {
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+}
+
+.card button.remove:hover {
+  background-color: #e0e0e0;
+}
