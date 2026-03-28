@@ -112,7 +112,7 @@ npm run dev
 | 10 | useEffect | Password Generator | Side effects & cleanup |
 | 11 | API Fetching | Currency Converter | fetch in React |
 | 12 | Component Design | Dashboard Layout | Think in components |
-| 13 | Reusable Components | UI Card Library | Props make components flexible |
+| 13 | React Router | React Router | useLoaderData, useNavigation |
 | 14 | **Mini Project** | ✅ Product List | Combine Week 2 concepts |
 
 ---
