@@ -107,13 +107,13 @@ npm run dev
 
 | Day | Concept | Project to Build | Key Takeaway |
 |-----|---------|-----------------|--------------|
-| 08 | Forms | Contact Form | Controlled vs uncontrolled |
-| 09 | React Auth Flow (Login + Signup + Validation)| Form Validation | Single source of truth |
-| 10 | useEffect | Password Generator | Side effects & cleanup |
-| 11 | API Fetching | Currency Converter | fetch in React |
-| 12 | Component Design | Dashboard Layout | Think in components |
-| 13 | React Router | React Router | useLoaderData, useNavigation |
-| 14 | **Mini Project** | ✅ Product List | Combine Week 2 concepts |
+| 08 | Forms & State | Contact Form Setup | Controlled vs uncontrolled inputs |
+| 09 | Forms Validation | Login & Signup Validation | Handling complex object state |
+| 10 | useEffect | Password Generator API | Side effects & dependencies |
+| 11 | Component Design | Layout Architectures | Thinking in components |
+| 12 | API Fetching & Hooks | Currency Converter | Custom Hooks & `fetch` integration |
+| 13 | React Router Routing | Multi-Page Routing Layouts | Nested routing and `Outlet` |
+| 14 | **Mini Project** | ✅ E-Commerce Product List | Combine Week 2 concepts |
 
 ---
 
@@ -121,81 +121,62 @@ npm run dev
 
 | Day | Concept | Project to Build | Key Takeaway |
 |-----|---------|-----------------|--------------|
-| 15 | Folder Structure | Scalable App | `components/`, `pages/`, `hooks/` |
-| 16 | Props Drilling | Multi-Component App | When drilling becomes a problem |
-| 17 | useContext | Theme Switcher | Global state without prop drilling |
-| 18 | Custom Hooks | Reusable Hook | Extract logic into `useSomething` |
-| 19 | Performance Basics | Memo Demo | `React.memo`, `useMemo`, `useCallback` |
-| 20 | React DevTools | Debugging | Inspect component tree & state |
-| 21 | **Mini Project** | ✅ Blog UI | Combine Week 3 concepts |
+| 15 | useContext (Basics) | Global Theme Switcher | Global state without prop drilling |
+| 16 | useContext (Advanced) | Context Todo App | Integrating Context Provider with LocalStorage |
+| 17 | Backend + Frontend | Photo to Doc Converter | Linking Node.js Backend to React UI |
+| 18 | Scalable Structure | Shopify Layout & Router | Architecting a large E-Commerce app |
+| 19 | Auth Flow Integration | Shopify Auth State | Global context for Login/Signup |
+| 20 | Enterprise State | Redux Toolkit (Mini Todo) | Slices, Stores, and Dispatching actions |
+| 21 | **Mini Project** | ✅ Shopify E-Commerce | Full E-Commerce storefront with real routing |
 
 ---
 
-## 🗓️ Week 4 — Real React Development
+## 🗓️ Week 4 — Advanced React & Capstone (The Final 7 Days)
 
 | Day | Concept | Project to Build | Key Takeaway |
 |-----|---------|-----------------|--------------|
-| 22 | React Router | Multi-Page App | `<BrowserRouter>`, `<Routes>`, `<Link>` |
-| 23 | Dynamic Routing | Blog Pages | URL params with `useParams` |
-| 24 | State Management Basics | App State | When to lift state up |
-| 25 | API Integration | Crypto Dashboard | Real data + loading states |
-| 26 | Loading & Error Handling | API UI | UX matters — show feedback |
-| 27 | Component Optimization | Performance | Avoid unnecessary re-renders |
-| 28 | UI Polishing | Styling Improvements | CSS modules or Tailwind basics |
+| 22 | Performance Optimization | Heavy Component Demo | `React.memo`, `useMemo`, `useCallback` |
+| 23 | Advanced Forms | Complex Registration | `react-hook-form` and `zod` validation |
+| 24 | Code Splitting & Errors | Lazy Loading App | `React.lazy()`, `Suspense`, Error Boundaries |
+| 25 | Advanced Custom Hooks| Reusable Utilities | `useFetch`, `useDebounce`, `useLocalStorage` |
+| 26 | Capstone Setup | Pick Idea & Scaffold | Integrating React Router & Tailwind |
+| 27 | Capstone Logic | Build Core Features | Global State with Redux Toolkit / Context |
+| 28 | Capstone Polish | Flagship App Completion | Final UI/UX touches and bug fixing |
 
 ---
 
-## 🏁 Final Build Phase
+## 🏁 Capstone Project Ideas (Final 3 Days)
 
-| Day | Task | Details |
-|-----|------|---------|
-| 29 | Project Planning | Pick idea → design components → plan state |
-| 30 | **Final Project** | Build a complete React app from scratch |
-
-**Final Project Ideas (pick one):**
-- 📝 Task Manager
-- 📓 Notes App
-- 💰 Crypto Tracker
-- 🌤️ Weather Dashboard
-- ✍️ Blog UI
+Instead of small components, you must build **one complete application** that uses everything:
+- 🛍️ **Full E-Commerce Store** (with Redux Cart & Mock Auth)
+- 📝 **Advanced Kanban Task Manager** (Trello Clone tracking complex state)
+- 💰 **Crypto Dashboard** (with complex API fetching, charts, and code-splitting)
 
 ---
 
-## 📁 Folder Structure
+## 📁 Actual Folder Structure (What We Built)
 
 ```
-Month1-React/
-├── 01-react-basic-jsx/
-├── 02-react-props/
-├── 03-react-state/
-├── 04-event-handling/
-├── 05-conditional-rendering/
-├── 06-list-rendering/
-├── 07-mini-project-todo/
-├── 08-forms/
-├── 09-controlled-components/
-├── 10-password-generator/
-├── 11-currency-convertor/
-├── 12-component-design/
-├── 13-reusable-components/
-├── 14-mini-project-products/
-├── 15-folder-structure/
-├── 16-props-drilling/
-├── 17-useContext/
-├── 18-custom-hooks/
-├── 19-performance/
-├── 20-devtools/
-├── 21-mini-project-blog/
-├── 22-react-router/
-├── 23-dynamic-routing/
-├── 24-state-management/
-├── 25-api-project-crypto/
-├── 26-error-handling/
-├── 27-optimization/
-├── 28-ui-polish/
-├── 29-final-project-setup/
-└── 30-final-project/
-```
+Month1/
+├── 00_customReact/
+├── 01_react-jsx-basic/
+├── 02_props/
+├── 03_Hooks/
+├── 04_Event_Handling/
+├── 05_Conditional_Rendering/
+├── 06_Lists_key/
+├── 07_Todo_List/
+├── 08_Froms/
+├── 09_Controlled_components/
+├── 11_Currency_Convertor/
+├── 12_Component_Design/
+├── 13_React_router/
+├── 14_Product_List/
+├── 15_useContext/
+├── 16_useContext_Todo/
+├── 17_ReduxToolKit/
+├── README.md (This summary)
+└── react-learning/
 
 ---
 
