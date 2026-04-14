@@ -74,5 +74,3 @@ Since you have 7 days left in the month, here is a structured daily plan to cove
 - [x] Global State via Context API (`useContext`)
 - [x] Enterprise State via **Redux Toolkit**
 - [x] Tailoring logic with pure JS inside components
-
-
